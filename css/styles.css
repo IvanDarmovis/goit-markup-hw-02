@@ -14,6 +14,7 @@ footer bgc #2F303A
   --accent-color: #2196f3;
   --contrast-color: #ffffff;
   --dark-bgc: #2f303a;
+  --hero-button-accent: #188ce8;
 }
 
 body {
@@ -107,7 +108,7 @@ h6 {
 
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--second-text-color);
+  background: var(--hero-button-accent);
 }
 
 .features {
